@@ -1,0 +1,61 @@
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10px;
+    background-color: #C2CAD0; /* Light Grey */
+}
+
+.profile-pic {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-left: 6em;
+}
+
+.intro-text h1 {
+    color: #000; /* Default color for the text */
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.intro-text .name {
+    color: #003366; /* Deep Blue */
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10%; /* Space from the text */
+    /* margin-right: 0.5em; */
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    fill: #003366; /* Deep Blue to match your theme */
+}
+
+@media (max-width: 768px) {
+    .home-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro-text {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .social-media {
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .icon {
+        margin: 0 10px;
+    }
+}
