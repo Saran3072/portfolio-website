@@ -1,26 +1,42 @@
 .header {
-    background-color: #003366; /* Deep Blue */
+    background-color: #0067cd; /* Deep Blue */
     color: #FFFFFF;
     padding: 1rem 2rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
 
+.logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .logo .logo-image {
-    width: 50px; /* Adjust based on your preference */
+    width: 80px; /* Adjust based on your preference */
     height: auto; /* Maintain aspect ratio */
+}
+
+.toggle-icon {
+    font-size: 1.5rem;
+    margin-left: auto;
 }
 
 .navbar ul {
     list-style-type: none;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
     padding: 0;
+    width: 100%; /* Full width to better fit mobile screens */
 }
 
 .navbar ul li {
-    margin-left: 20px;
+    margin: 10px 0;
 }
 
 .navbar ul li a {
@@ -31,22 +47,24 @@
 }
 
 .navbar ul li a:hover {
-    color: #bce1ff; /* Pistachio Green */
+    color: #bce1ff; /* Lighter Blue */
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) {
     .header {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
     }
+
+    .logo .toggle-icon {
+        display: none; /* Hide toggle icon on larger screens */
+    }
+
     .navbar ul {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
     }
+
     .navbar ul li {
-        margin: 10px 0;
-    }
-    .logo .logo-image {
-        width: 80px; /* Slightly smaller for mobile */
+        margin-left: 20px;
     }
 }

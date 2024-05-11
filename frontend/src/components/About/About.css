@@ -1,0 +1,20 @@
+.about-section {
+    background-color: #eeeeee; /* Light grey background for contrast */
+    padding: 40px 20px;
+    text-align: left;
+    border-radius: 1rem;
+}
+
+.about-heading {
+    color: #0067cd; /* Deep Blue */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    color: #5b5b5b; /* Dark grey for the text */
+    font-size: 1.2rem;
+    line-height: 1.6; /* Enhanced readability */
+    text-align: justify; /* Justifies the text */
+}
+

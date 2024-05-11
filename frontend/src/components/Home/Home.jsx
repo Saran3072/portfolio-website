@@ -11,7 +11,8 @@ function Home() {
             <img src={profilePic} alt="Your Name" className="profile-pic"/>
             <div className="intro-text">
             <h1>Hi, I'm <span className="name">Sai Saran Dammavalam</span></h1>
-                <p>Machine Learning Engineer | AI Enthusiast | Data Scientist | Backend | Freelance</p>
+            <h2 className="subtitle">Machine Learning Engineer</h2> 
+                <p>22 | Machine Learning | Artificial Intelligence | Data Science | Backend | Freelance</p>
             </div>
             <div className="social-media">
                 <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><LinkedInIcon className="icon"/></a>

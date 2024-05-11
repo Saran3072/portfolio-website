@@ -1,0 +1,22 @@
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff; /* Adjust background color if needed */
+    border-radius: 1rem;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0067cd; /* Deep Blue */
+}
+
+.stat-description {
+    font-size: 1rem;
+    color: #666;
+}

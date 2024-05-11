@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     padding: 50px 10px;
-    background-color: #C2CAD0; /* Light Grey */
+    background-color: #ffffff; /* Light Grey */
 }
 
 .profile-pic {
@@ -17,18 +17,25 @@
 .intro-text h1 {
     color: #000; /* Default color for the text */
     font-size: 2.5rem;
-    text-align: left;
+    text-align:center;
 }
 
 .intro-text .name {
-    color: #003366; /* Deep Blue */
+    color: #0067cd; /* Deep Blue */
+}
+
+.intro-text .subtitle {
+    color: #818181; /* Taupe Brown */
+    font-size: 1.65rem;
+    font-weight: normal1;
+    margin-top: -15px; /* Adjusts spacing if necessary */
 }
 
 .social-media {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 10%; /* Space from the text */
+    padding-left: 5%; /* Space from the text */
     /* margin-right: 0.5em; */
 }
 
@@ -36,7 +43,7 @@
     width: 30px;
     height: 30px;
     margin-bottom: 10px;
-    fill: #003366; /* Deep Blue to match your theme */
+    fill: #0067cd; /* Deep Blue to match your theme */
 }
 
 @media (max-width: 768px) {
@@ -56,6 +63,6 @@
     }
 
     .icon {
-        margin: 0 10px;
+        margin-right: 10px;
     }
 }
